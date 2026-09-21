@@ -1,0 +1,14 @@
+Desktop Metrics v1.8.1 build log
+Started: 13.08.2026 14:59:29,91
+Project: C:\Users\Koder01\Desktop\DesktopMetrics-v1.8.1
+
+Python diagnostics:
+Executable: C:\Python 3.11\python.exe
+Version: 3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]
+Bits: 64
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+ModuleNotFoundError: No module named 'venv'
+pip 26.2.1 from C:\Python 3.11\Lib\site-packages\pip (python 3.11)
+C:\Python 3.11\python.exe: No module named ensurepip
+Build completed successfully.

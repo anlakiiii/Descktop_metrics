@@ -1,0 +1,25 @@
+DESKTOP METRICS v1.8.1 - PORTABLE EXE + INSTALLER BUILD
+
+1. Quit the old Desktop Metrics tray instance.
+2. Install Inno Setup 6 on the Windows PC that will perform the build.
+3. Drag your complete portable Python 3.11 python.exe onto build_release.bat.
+   A normal installed 64-bit Python 3.10-3.14 also works by double-clicking it.
+4. Wait for the build to finish.
+5. Open the release folder.
+
+The finished files will be:
+
+  DesktopMetrics-Portable-v1.8.1.exe
+  DesktopMetrics-Setup-v1.8.1.exe
+
+The portable EXE needs no Python on the target PC. Its settings are kept in a
+DesktopMetricsData folder beside the EXE.
+
+The installer creates a normal per-user installation, Start Menu shortcut,
+uninstaller, and an optional desktop shortcut. Start with Windows is selected
+by default and can also be changed later from the tray menu or Settings.
+
+The tray icon, application icon, portable EXE icon, installer icon, and
+uninstaller icon all use assets\desktop_metrics.ico.
+
+See BUILDING.md for full details.

@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+.pytest_cache/
+build/
+dist/
+*.spec
+*.pyc
+.portable_python_path.txt
+.direct_python_path.txt
+.build-venv/
+release/
+DesktopMetricsData/
